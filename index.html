@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thi Trắc Nghiệm CTĐ, CTCT - Premium</title>
+  <title>Test Trắc Nghiệm CTĐ, CTCT - Premium</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,9 +46,14 @@
 
 <body class="text-slate-800 overflow-hidden">
   <div id="root"></div>
+  <div
+    class="fixed bottom-2 right-3 text-xs md:text-sm font-medium text-slate-500/80 z-50 pointer-events-none drop-shadow-sm">
+    Page by vietbinh
+  </div>
 
   <script type="text/babel">
     const { useState, useEffect, useMemo, useRef } = React;
+
 
     // --- Icons ---
     const IconSVG = ({ children, size = 24, className = "" }) => (
